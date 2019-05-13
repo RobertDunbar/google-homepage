@@ -5,40 +5,47 @@
         <title>My version of the google homepage</title>
         <link href="../google-homepage/styles/style.css" rel="stylesheet" type="text/css">
     </head>
-    <div class="header">
-        <header>
-            <ul>
-                <li class="fade">About</li>
-                <li class="fade">Store</li>
-                <ul id="header_right">
-                    <li class="fade">Gmail</li>
-                    <li class="fade">Images</li>
-                    <li><img id="app_image" alt="app logo" src="../google-homepage/images/Material_icons-01-11-512.png" height="30" width="30"></li>
-                    <li><input class="sign_in" type="submit" name="signin" value="Sign In"></li>
-                </ul>
+    <header>
+        <ul>
+            <li class="fade">About</li>
+            <li class="fade">Store</li>
+            <ul id="header_right">
+                <li class="fade">Gmail</li>
+                <li class="fade">Images</li>
+                <li><img id="app_image" alt="app logo" src="../google-homepage/images/Material_icons-01-11-512.png" height="30" width="30"></li>
+                <li><input class="sign_in" type="submit" name="signin" value="Sign In"></li>
             </ul>
-        </header>
-    </div>
-    <div class="body">
-        <body>
-            <div class="logo">
-                <img alt="google logo" src="../google-homepage/images/googlelogo_color_272x92dp.png" height="92" width="272">
+        </ul>
+    </header>
+    <body>
+        <div class="logo">
+            <img alt="google logo" src="../google-homepage/images/googlelogo_color_272x92dp.png" height="92" width="272">
+        </div>
+        <form action="http://www.bbc.co.uk" method="GET">
+            <div class="searchbox" >
+                <input type="search" name="searchtext">
             </div>
-            <form action="http://www.bbc.co.uk" method="GET">
-                <div class="searchbox" >
-                    <input type="search" name="searchtext">
-                </div>
-                <div class="buttons">
-                    <input class="under_search" type="submit" name="search" value="Google Search">
-                    <input class="under_search" type="submit" name="lucky" value="I'm Feeling Lucky">
-                </div>
-            </form>
-            <div class="privacy">
-                <p><img id="privimage" alt="privacy" src="../google-homepage/images/logo-myaccount-callout-68px.png" height="48" width="48">Privacy that works for everyone. <a id="privacylink" href="http://www.bbc.co.uk">Choose which settings work best for you</a></p>        
+            <div class="buttons">
+                <input class="under_search" type="submit" name="search" value="Google Search">
+                <input class="under_search" type="submit" name="lucky" value="I'm Feeling Lucky">
             </div>
-        </body>
-    </div>
-    <div class="footer">
-        <footer>this is a footer</footer>
-    </div>
+        </form>
+        <div class="privacy">
+            <p><img id="privimage" alt="privacy" src="../google-homepage/images/logo-myaccount-callout-68px.png" height="48" width="48">Privacy that works for everyone. <a id="privacylink" href="http://www.bbc.co.uk">Choose which settings work best for you</a></p>        
+        </div>
+    </body>
+    <section>
+        United Kingdom
+    </section>
+    <footer>
+        <ul>
+            <li>Advertising</li>
+            <li>Business</li>
+            <ul id="footer_right">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </ul>
+    </footer>
 </html>

@@ -8,14 +8,12 @@ html {
 header {
     padding: 10px 0 0 0;
 }
-body {
-    min-height: 100%;
-}
+
 li {
     display: inline;
     font-size: 13px;
     padding: 10px;
-    list-style:none;
+    list-style: none;
 }
 
 .fade {
@@ -27,16 +25,43 @@ ul {
     padding-inline-start: 0;
 }
 
-ul #header_right{
+ul #header_right, ul #footer_right {
     float: right;
 }
 
-.footer {
-    background-color: rgb(148, 143, 192);
+ul #footer_right {
+    padding-right: 30px;
+}
+
+footer ul {
+    padding-left: 27px;
+}
+footer li {
+    color: #5F6368;
+    line-height: 40px;
+}
+
+footer {
+    background-color: #f2f2f2;
     position: absolute;
     bottom: 0;
-    height: 40px;
+    height: 35px;
     width: 100%;
+    margin-left: -10px;
+}
+
+section {
+    position: absolute;
+    font-size: 15px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    bottom: 35px;
+    width: 100%;
+    color: #5F6368;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: -10px;
+    padding-left: 37px;
 }
 
 .logo {
