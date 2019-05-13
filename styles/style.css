@@ -1,12 +1,28 @@
 * {
     font-family: Arial, sans-serif; 
 }
-.header {
-    background-color: blue;
+
+li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.header input{
+    /*width: 100%;
+    text-align: right;*/
+    float: right;
+}
+ 
+ul {
+    padding-inline-start: 0;
+}
+#header_right li{
+    float: right;
 }
 
 .footer {
-    background-color: blueviolet;
+    background-color: rgb(148, 143, 192);
 }
 
 .logo {
@@ -14,16 +30,18 @@
     height: 92px;
     margin: 10px auto 10px auto;
     padding: 10px;
+    padding-top: 130px;
 }
 
 .buttons {
     width: 295px;
     height: 100px;
     margin: 10px auto 10px auto;
+    padding: 18px;
 }
 
 .searchbox {
-    width: 584px;
+    width: 582px;
     height: 46px;
     margin: 10px auto 10px auto;
     border-radius: 10px;
@@ -31,6 +49,12 @@
 }
 
 #privimage {
+    vertical-align: middle;
+}
+
+#app_image {
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
 }
 
@@ -43,10 +67,10 @@
     -webkit-appearance: none;
     text-decoration: none;
     font-size: small;
-    color: #609;
+    color: blue;
 }
 
-input[type=submit] {
+input[type=submit].under_search {
     font-size: 14px;
     padding:5px 15px; 
     background-color: #f2f2f2;
@@ -62,10 +86,22 @@ input[type=submit] {
     line-height: 27px;
 }
 
+input[type=submit].sign_in {
+    font-size: 13px;
+    font-weight: bold;
+    background: #4285f4;
+    color: white;
+    line-height: 28px;
+    padding: 0 12px;
+    outline: none;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+}
+
 input[type=search] {
     -webkit-appearance: none;
     font-size: 14px;
-    width: 584px;
+    width: 582px;
     height: 46px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;

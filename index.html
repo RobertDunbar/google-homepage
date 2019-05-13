@@ -6,7 +6,20 @@
         <link href="../google-homepage/styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <div class="header">
-        <header>this is a header</header>
+        <header>
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+                <span id="header_right">
+                    <li>Gmail</li>
+                    <li>Images</li>
+                    <li><img id="app_image" alt="app logo" src="../google-homepage/images/Material_icons-01-11-512.png" height="30" width="30"></li>
+                    <!--<li><input class="sign_in" type="submit" name="signin" value="Sign In"></li>-->
+                </span>
+            </ul>
+            <!--<img alt="app logo" src="../google-homepage/images/Material_icons-01-11-512.png" height="30" width="30">-->
+            <input display="inline" class="sign_in" type="submit" name="signin" value="Sign In">
+        </header>
     </div>
     <div class="body">
         <body>
@@ -18,8 +31,8 @@
                     <input type="search" name="searchtext">
                 </div>
                 <div class="buttons">
-                    <input type="submit" name="search" value="Google Search">
-                    <input type="submit" name="lucky" value="I'm Feeling Lucky">
+                    <input class="under_search" type="submit" name="search" value="Google Search">
+                    <input class="under_search" type="submit" name="lucky" value="I'm Feeling Lucky">
                 </div>
             </form>
             <div class="privacy">
