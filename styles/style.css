@@ -1,28 +1,42 @@
 * {
     font-family: Arial, sans-serif; 
 }
-
-li {
-    display: inline-block;
-    font-size: 13px;
-    padding: 15px;
+html {
+    height: 100%;
 }
 
-.header input{
-    /*width: 100%;
-    text-align: right;*/
-    float: right;
+header {
+    padding: 10px 0 0 0;
+}
+body {
+    min-height: 100%;
+}
+li {
+    display: inline;
+    font-size: 13px;
+    padding: 10px;
+    list-style:none;
+}
+
+.fade {
+    opacity: 0.75;
 }
  
 ul {
+    display: inline;
     padding-inline-start: 0;
 }
-#header_right li{
+
+ul #header_right{
     float: right;
 }
 
 .footer {
     background-color: rgb(148, 143, 192);
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
 }
 
 .logo {
